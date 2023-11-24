@@ -73,14 +73,7 @@ namespace BasicCalculator
             }
         }
 
-        private void btnClear_Click(object sender, EventArgs e)
-        {
-            txtNum1.Text = "";
-            txtNum2.Text = "";
-
-            lblAnswer.Text = "0000";
-            cbOperators.Text = "";
-        }
+        
     }
 }
 
